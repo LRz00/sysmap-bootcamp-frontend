@@ -48,8 +48,8 @@ Aqui está a lista de rotas disponíveis na aplicação(Todas funcionando como e
 ### 1. Clonar o repositório
 
 ```bash
-git clone https://github.com/bc-fullstack-05/lara_dacilde_mendes_rodrigues.git
-cd lara_dacilde_mendes_rodrigues/sysfrontend
+git clone github.com/LRz00/sysmap-bootcamp-frontend.git
+cd sysmap-bootcamp-frontend
 ```
 
 ### 2. Instalar dependências
@@ -64,16 +64,6 @@ npm install
 ### 3. Configurar a API Base URL
 
 A URL da API está configurada no arquivo `src/service/axios.ts`. Verifique se a URL da sua API backend está correta:
-
-```typescript
-import axios from 'axios';
-
-const api = axios.create({
-  baseURL: 'https://myfrota.pt/api',
-});
-
-export default api;
-```
 
 ### 4. Executar o Projeto
 
